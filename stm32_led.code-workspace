@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../.platformio/packages/framework-cmsis-stm32f1"
+		},
+		{
+			"path": "../../../../.platformio/packages/framework-cmsis"
+		},
+		{
+			"path": "../../../../.platformio/penv"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stm32f1xx.h": "c"
+		},
+		"python.autoComplete.extraPaths": [
+		"/home/gwork/.platformio/penv/lib/python3.8/site-packages",
+		"/home/gwork/.platformio/packages/tool-scons",
+		"/home/gwork/.platformio/packages/tool-scons/scons-local-4.1.0"
+		],
+		"python.autoComplete.addBrackets": true,
+		"python.analysis.extraPaths": [
+			"/home/gwork/.platformio/penv/lib/python3.8/site-packages",
+			"/home/gwork/.platformio/packages/tool-scons",
+			"/home/gwork/.platformio/packages/tool-scons/scons-local-4.1.0"
+		],
+		"python.analysis.completeFunctionParens": true
+	}
+}

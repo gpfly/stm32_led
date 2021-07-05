@@ -1,0 +1,44 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/gwork/Documents/PlatformIO/Projects/stm32_led/include",
+                "/home/gwork/Documents/PlatformIO/Projects/stm32_led/src",
+                "/home/gwork/.platformio/packages/framework-cmsis/CMSIS/Include",
+                "/home/gwork/.platformio/packages/framework-cmsis-stm32f1/Include",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/gwork/Documents/PlatformIO/Projects/stm32_led/include",
+                    "/home/gwork/Documents/PlatformIO/Projects/stm32_led/src",
+                    "/home/gwork/.platformio/packages/framework-cmsis/CMSIS/Include",
+                    "/home/gwork/.platformio/packages/framework-cmsis-stm32f1/Include",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50101",
+                "STM32F103xB",
+                "STM32F1",
+                "F_CPU=72000000L",
+                "GENERIC_F103CX",
+                ""
+            ],
+            "compilerPath": "/home/gwork/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m3",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
